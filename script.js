@@ -5,6 +5,6 @@ function calculateArea() {
 			 radius = parseFloat(radius);
 		    let area = Math.PI * radius * radius;
 		    area = area.toFixed(2);
-           alert(area);
+           alert(`The area of the circle with radius ${radius} is ${area}`);
 }
 calculateArea();
